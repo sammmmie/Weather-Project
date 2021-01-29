@@ -1,0 +1,101 @@
+.weather {
+    margin: 50px;
+    padding: 35px 20px;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+  }
+  
+  div.weather-board {
+    background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%);
+  }
+  
+  div.todays-weather {
+    margin: 50px 0px 20px;
+  }
+  
+  p {
+    font-size: 20px;
+    padding-bottom: 0px;
+  }
+  
+  h1 {
+    font-size: 50px;
+    padding-top: 0px;
+  }
+  
+  div.current-weather-in {
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    color: white;
+  }
+  
+  #location {
+    font-size: 45px;
+    font-weight: 800;
+    margin-top: -27px;
+    color: #ef3b49;
+  }
+  
+  div.current-temperature {
+    margin-top: -27px;
+    font-size: 40px;
+    color: white;
+  }
+  
+  #tempUnits {
+    font-size: 20px;
+    position: relative;
+    top: -10px;
+    font-weight: bold;
+  }
+  
+  #celcius-link,
+  #fahrenheit-link {
+    color: rgb(92, 73, 201);
+    text-decoration-line: none;
+  }
+  div.current-weather-sticker i {
+    font-size: 70px;
+    padding: 25px;
+    color: white;
+  }
+  
+  div.current-weather-sticker {
+    margin-bottom: 0px;
+  }
+  
+  #todayDate {
+    color: white;
+    font-size: 20px;
+    margin-top: -27px;
+  }
+  
+  div.five-day-weather-forecast {
+    margin-top: 20px;
+    padding: 30px;
+    color: #473a93;
+  }
+  
+  i {
+    font-size: 30px;
+    color: #473a93;
+  }
+  
+  p.card-day-of-the-week {
+    font-size: 16px;
+    font-weight: 200;
+  }
+  
+  p.card-temperature {
+    font-size: 16px;
+    margin: 0px;
+    color: #473a93;
+  }
+  
+  #codedBy {
+    font-family: monospace;
+    font-size: 14px;
+    color: #a03a6c;
+  }
+  
