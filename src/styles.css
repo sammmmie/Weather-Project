@@ -5,7 +5,7 @@
     font-family: "Raleway", sans-serif;
   }
   
-  div.weather-board {
+  div.card-weather-board {
     background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%);
   }
   
@@ -71,6 +71,14 @@
     margin-top: -27px;
   }
   
+  .card:hover{
+    background: rgba(241, 59, 72, 0.1);
+    cursor: default;
+    transition: all 250ms ease-in-out;
+    border: 0.5px dashed rgb(255, 255, 255, 0.3);
+  }
+
+
   div.five-day-weather-forecast {
     margin-top: 20px;
     padding: 30px;
