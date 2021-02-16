@@ -37,12 +37,8 @@
     color: #ef3b49;
   }
    
-  #todayDate {
-    color: white;
-    font-size: 20px;
-    margin-top: -27px;
-  }
-  
+
+
   div.current-temperature {
     margin-top: -27px;
     font-size: 40px;
@@ -69,6 +65,12 @@
   
   div.current-weather-sticker {
     margin-bottom: -15px;
+  }
+
+  #todayDate {
+    color: #ef3b49;
+    font-size: 20px;
+    margin-top: -27px;
   }
   
   ul {
