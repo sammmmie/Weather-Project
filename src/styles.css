@@ -11,6 +11,7 @@
   
   div.todays-weather {
     margin: 50px 0px 20px;
+    padding: 10px, 0px, 0px,0px;
   }
   
   p {
@@ -52,11 +53,19 @@
     font-weight: bold;
   }
   
-  #celcius-link,
-  #fahrenheit-link {
+
+
+  .current-temperature .active{
+    color: white;
+    cursor: default;
+    text-decoration-line: none;
+  }  
+  
+  #tempUnits {
     color: rgb(92, 73, 201);
     text-decoration-line: none;
   }
+
   div.current-weather-sticker i {
     font-size: 70px;
     padding: 25px;
