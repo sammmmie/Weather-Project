@@ -62,7 +62,7 @@
   }  
   
   #tempUnits {
-    color: rgb(92, 73, 201);
+    color: #a03a6c;
     text-decoration-line: none;
   }
 
@@ -113,12 +113,12 @@
   }
   
   p.card-day-of-the-week {
-    font-size: 16px;
+    font-size: 8px;
     font-weight: 200;
   }
   
   p.card-temperature {
-    font-size: 16px;
+    font-size: 20px;
     margin: 0px;
     color: #473a93;
   }
@@ -127,5 +127,13 @@
     font-family: monospace;
     font-size: 14px;
     color: #a03a6c;
+  }
+
+  #github-link {
+    color: #a03a6c;
+  }
+
+  #github-link:hover {
+    color: white;
   }
   
